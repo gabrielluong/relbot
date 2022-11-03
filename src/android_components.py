@@ -138,7 +138,7 @@ def _update_geckoview(
 ):
     try:
         release_branch_name = (
-            "main" if ac_major_version == "main" else f"releases_v{ac_major_version}"
+            "bug-1800542-test" if ac_major_version == "main" else f"releases_v{ac_major_version}"
         )
         print(
             f"{ts()} Updating GeckoView on A-C {ac_repo.full_name}:{release_branch_name}"
