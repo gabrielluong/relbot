@@ -29,8 +29,8 @@ import android_components, fenix, focus_android, reference_browser
 
 
 DEFAULT_ORGANIZATION = "st3fan"
-DEFAULT_AUTHOR_NAME = "MickeyMoz"
-DEFAULT_AUTHOR_EMAIL = "sebastian@mozilla.com"
+DEFAULT_AUTHOR_NAME = "Gabriel Luong"
+DEFAULT_AUTHOR_EMAIL = "gabriel.luong@gmail.com"
 USAGE = "usage: relbot <android-components|fenix|focus-android|reference-browser> command..."
 
 

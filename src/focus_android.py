@@ -37,7 +37,7 @@ def update_android_components_in_focus(ac_repo, focus_repo, author, debug, dry_r
         target_path="focus-android/",
         author=author,
         debug=debug,
-        release_branch_name="main",
+        release_branch_name="bug-1797245-test",
         dry_run=dry_run
     )
     for version in get_recent_focus_versions(focus_repo):
